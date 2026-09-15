@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Typing Effect ---
     const textElement = document.getElementById('typing-text');
-    const phrases = ["مطور ويب", "مصمم واجهات", "مبتكر حلول رقمية"];
+    const phrases = ["مطور ويب وتطبيقات", "أمن سيبراني", "مبتكر حلول رقمية", "Vibe Coding"];
     let phraseIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
