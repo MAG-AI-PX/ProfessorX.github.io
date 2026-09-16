@@ -292,6 +292,25 @@ body {
     box-shadow: 0 10px 20px -5px rgba(255, 255, 255, 0.3);
 }
 
+#github-btn {
+    font-family: var(--font-en);
+    gap: 0.35rem;
+}
+
+#github-btn i {
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+    transform: translateY(0);
+}
+
+#github-btn span {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+}
+
 .btn-secondary {
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -379,4 +398,23 @@ body {
     .social-grid {
         gap: 0.5rem;
     }
+}
+
+#typing-text {
+    border-right: none;
+}
+
+.cursor {
+    display: inline-block;
+    width: 2px;
+    background-color: var(--primary-accent);
+    color: transparent;
+    margin-right: 5px;
+    animation: blink 1s infinite;
+    user-select: none;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
 }
